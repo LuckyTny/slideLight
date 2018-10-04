@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body { 
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Cinzel', serif;  
+}
+.slider {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0;
+
+}
+.item {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    background-color: #aeaeae;
+    border: 1px solid black;
+    transition: all 0.3s;
+}
+.item:hover {
+    flex-basis: 50%;
+}
+.item-1 {
+    background: url(../img/1.jpg) no-repeat center center;
+    background-size: cover;
+}
